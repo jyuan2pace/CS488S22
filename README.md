@@ -38,4 +38,5 @@ Week 2:<br>[Adds-on to week1](https://kami.app/q0LBp6YJ0VqW)<br>Week of 02/02/20
 Week 3:<br>[Notes](https://colab.research.google.com/drive/1DGjoeOFKo9LTWmEwVvj-Rk_FjRGxvPug?usp=sharing)<br>Week of 02/09/2021 | **Week 3: Dive into Python** <ul> <li>Part 3.1: Review IO, mathematical operations on different numeric types<li>Part 3.2: Conditions <li>Part 3.3: Loops <li>Part 3.4: Lists <li>Part 3.5: Functions <li>Part 3.5: Strings </ul> |<ul><li>[TODO]() <li> [TODO]() </ul>|<ul>Tentative Reading list: <li>[Read the while and break statements from Think Python](http://www.greenteapress.com/thinkpython/html/thinkpython008.html#toc79)<li>[Learn python 3, complete both notebooks and exercises for 2,3,4 and 6](./python_materials/learn-python3)</ul>|TODO | Quiz#3 due 02/14/2021 
 
 # Hands-out
-[Python 3 Cheating Sheet](./python_materials/python3cheatsheet.pdf)
+* [Python 3 Cheating Sheet](./python_materials/python3cheatsheet.pdf)
+* [Virtualize Python Execution](http://www.pythontutor.com/visualize.html#mode=edit)
