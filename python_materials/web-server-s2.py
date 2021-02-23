@@ -22,6 +22,7 @@ HTTP/1.1 200 OK
 <html>    
 <head>    
     <title>Login Form</title>    
+    <link rel="icon" href="data:,">
 </head>    
 <body>    
     <h2>Login Page</h2><br>    
