@@ -27,7 +27,7 @@ class AssignmentNetworks(Topo):
         self.addLink(h2, s2)
         self.addLink(h3, s3)
         self.addLink(h4, s4)
-	    self.addLink(s1, s2, bw=20, delay='10ms')
+	self.addLink(s1, s2, bw=20, delay='10ms')
         self.addLink(s2, s3, bw=10, delay='15ms')
         self.addLink(s3, s4, bw=20, delay='20ms')
         
