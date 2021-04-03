@@ -34,8 +34,8 @@ while [ $i -lt 1 ]; do
 	if [ $? != 0 ]; then
 		let fail=fail+1 
 	fi
-	kill -9 $(lsof -t -i:5002)
-	kill -9 $(lsof -t -i:5004)
+	kill -9 $(lsof -t -i:5002) > /dev/null 2>&1
+	kill -9 $(lsof -t -i:5004) > /dev/null 2>&1
 done
 
 if [ $fail != 0 ]; then

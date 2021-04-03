@@ -24,8 +24,8 @@ python3.6 ./forwarder.py 9006 7008 > RESULT &
 cat SMALL_FILE | python3.6 ./sender.py 127.0.0.1 9006 &
 sleep 20
 sync
-kill -9 $(lsof -t -i:9006)
-kill -9 $(lsof -t -i:7008)
+kill -9 $(lsof -t -i:9006) > /dev/null 2>&1
+kill -9 $(lsof -t -i:7008) > /dev/null 2>&1
 
 result=`cat RESULT`
 

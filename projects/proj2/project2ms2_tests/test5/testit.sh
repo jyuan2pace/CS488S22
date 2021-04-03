@@ -27,7 +27,7 @@ do
        	cat REAL_HUGE_FILE | python3.6 ./sender.py 127.0.0.1 5009 &
         sync
         sleep 50s
-		kill -9 $(lsof -t -i:5009)
+		kill -9 $(lsof -t -i:5009) > /dev/null 2>&1
 		diff RECEIVED_FILE REAL_HUGE_FILE
         if [ $? != 0 ]; then
                 succ=0
