@@ -9,7 +9,7 @@ testname=$0
 serverlog=../../../server_output.txt
 #set -x
 
-msg= "Test 1 works as following:
+msg="Test 1 works as following:
 1. launch unix command: 
        python3.6 ./receiver.py 5006 > RECEIVED_FILE &
 2. launch the forwarder which is the unreliable link b/w receiver and sender
