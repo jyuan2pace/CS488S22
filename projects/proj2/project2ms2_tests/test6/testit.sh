@@ -7,9 +7,6 @@ total=0
 fail=0
 testname=$0
 serverlog=../../../server_output.txt
-cp ../SMALL_FILE .
-cp ../LOSEUS.txt .
-cp ../forwarder.py forwarder.py
 #set -x
 
 msg="Test6 works as following:
