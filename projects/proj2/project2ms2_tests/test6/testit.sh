@@ -7,9 +7,12 @@ total=0
 fail=0
 testname=$0
 serverlog=../../../server_output.txt
+cp ../SMALL_FILE .
+cp ../LOSEUS.txt .
+cp ../forwarder.py forwarder.py
 #set -x
 
-msg="Test 6 works as following:
+msg="Test6 works as following:
 1. launch unix command: 
        python3.6 ./receiver.py 7006 > RECEIVED_FILE &
 2. launch the forwarder which is the unreliable link b/w receiver and sender
@@ -17,10 +20,11 @@ msg="Test 6 works as following:
 3. send data: 
        cat SMALL_FILE | python3.6 ./sender.py 127.0.0.1 7008
 4. Compare files are the same
-       check if forwarder.py exit 0 (pipelined) or 1 (stop-and-wait)"
+       check if forwarder.py writes 0 (pipelined) or 1 (stop-and-wait)"
+
 echo "$msg"
 python3.6 ./receiver.py 7008 > RECEIVED_FILE &
-python3.6 ./forwarder.py 9006 7008 > RESULT &
+python3.6 ./forwarder.py 9006 7008  &
 cat SMALL_FILE | python3.6 ./sender.py 127.0.0.1 9006 &
 sleep 20
 sync

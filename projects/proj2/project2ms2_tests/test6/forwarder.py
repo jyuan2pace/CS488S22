@@ -19,26 +19,24 @@ clientAddr = (host, sendto_port)
 counter=0
 pipeline=False
 input = [serverSocket, clientSocket]
-while True:
-	inputready,outputready,exceptready = select(input,[],[])
-	for s in inputready:
-		if s == serverSocket:
-			data, addr = serverSocket.recvfrom(buf)
-			if data:
-				clientSocket.sendto(data, clientAddr)
-				counter=counter+1
+with open("RESULT", "w") as f:
+	while True:
+		inputready,outputready,exceptready = select(input,[],[])
+		for s in inputready:
+			if s == serverSocket:
+				data, addr = serverSocket.recvfrom(buf)
+				if data:
+					clientSocket.sendto(data, clientAddr)
+					counter=counter+1
+			elif s == clientSocket:
+				ack, ackaddr = clientSocket.recvfrom(100)
+				if ack:
+					serverSocket.sendto(ack, addr)
+					counter=counter-1
+					if(counter > 0):
+						if(pipeline == False):
+							pipeline=True
+							f.write("1")
+							f.flush()
 			else:
-				serverSocket.close()
-		elif s == clientSocket:
-			ack, ackaddr = clientSocket.recvfrom(100)
-			if ack:
-				serverSocket.sendto(ack, addr)
-				counter=counter-1
-				if(counter != 0):
-					if(pipeline == False):
-						pipeline=True
-						print("1")
-			else:
-				clientSocket.close()
-		else:
-			print("unknown socket:", s)
+				print("unknown socket:", s)
