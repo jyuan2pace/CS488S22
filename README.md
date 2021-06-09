@@ -3,18 +3,21 @@
 
 Instructor: [Dr. Jun Yuan](http://csis.pace.edu/~jyuan2/)
 
-**The content of this course changes as technology evolves**, to keep up to date with changes [follow me on GitHub](https://github.com/jyuan2pace/CS488S21).
+**The content of this course changes as technology evolves**, to keep up to date with changes [follow me on GitHub](https://github.com/jyuan2pace/CS488OER).
 
-* Section 20882. Spring 2021, Tuesday & Thursday, 12:15 PM, [Zoom meeting link](https://pace.zoom.us/j/6313313504?pwd=bUJtV3NUUlBiZVNKTThTRHBoMi84Zz09) 
+# Acknowledgments
+This is the OER (open educational resources) repo for _CS488 Computer Networking and the Internet_ in supporting the action plan for *high-quality* and *affordable* learning materials to Pace students. Within the bounds of Creative Commons licensing, materials are developed following 5Rs of OER.  In order to best suit Pace students and meet the particular learning goals of the course, some materials come from remixing materials under common creative licenses or in open access with fair use.
+
+This course would have been impossible without starting material from Srinivas Narayana, Jennifer Rexford and Badri Nath. We also thank Jim Kurose and Keith Ross for the slide decks accompanying their textbook; some of the slide decks in this course draw heavily from their slides.
+
 
 # Course Description
 
-This course provides a top-down study of modern computer networking and the Internet. Application layer topics include the Web, HTTP, FTP, SMTP, DNS, and socket programming. Transport layer topics include UDP, TCP, and congestion control. Network layer topics include link state routing, distance vector routing, IPv4, RIP, OSPF, BGP, IPv6, multicasting and IGMP, and mobile IP. Local area network topics include Ethernet, IEEE, 802.11, and Bluetooth.
+This course provides a top-down study of modern computer networking and the Internet. Application layer topics include the Web, HTTP, FTP, SMTP, DNS, and socket programming. Transport layer topics include UDP, TCP, and congestion control. Network layer topics include link state routing, distance vector routing, IPv4, RIP, OSPF, BGP, IPv6, multicasting and IGMP, and mobile IP. Local area network topics include Ethernet, IEEE, 802.11, and Bl
 
 # Textbook
 
-* **[Required]**  Computer Networking: A Top-Down Approach, By James F. Kurose; Keith W. Ross. Edition: 6,  ISBN:9780132856201
-* **[Recommended]** TCP/IP Illustrated, Vol. 1: The Protocols; By Richard Steves. ISBN: 978-0201633467
+* **[Required]** None, supplied by OER materials 
 
 # Objectives
 
@@ -28,7 +31,7 @@ IEEE 802.11 protocols;
 7. Demonstrate your understanding of the material through a final project uploaded to GitHub.
 
 # Syllabus
-This syllabus presents the expected class schedule, due dates, and reading assignments.  [Check current syllabus.](https://docs.google.com/document/d/1xm9FhonUHEuMwYttbQLTa5kgFB2k3s4wz1XRF6_BUy4/edit?usp=sharing)
+This syllabus for 2022 Spring is yet to be developed.  [Check out a sample syllabus from past](https://docs.google.com/document/d/1xm9FhonUHEuMwYttbQLTa5kgFB2k3s4wz1XRF6_BUy4/edit?usp=sharing)
 
 # Live Schedule
 Week|Content|Recording|Reading|Quiz|Deadline
