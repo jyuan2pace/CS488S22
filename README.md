@@ -35,7 +35,7 @@ This syllabus for 2022 Spring is yet to be developed.  [Check out a sample sylla
 
 # Live Schedule
 Week|Content|Recording|Reading|Quiz|Deadline
----|---|---|---|---|---
+---|--------------|---|---|---|---
 <img width=1000/>|<img width=2000/>|<img width=1000/>|<img width=1500/>|<img width=500/>|<img width=300/>
 Week 1: <br>Slides [1-1](./slides/intro-course-overview.pptx) and [1-2](slides/intro-circuit-packet-switching.pptx)<br>First class on [TBD] | **Week 1: Course Intro and Logistics** <ul><li>Part 1.1: Admin and Logistics <li>Part 1.2: Intro <li>Part 1.3: Circuit and packet switching <li> Part 1.4: Measuring networks <li> Part 1.5: Network Arch and layering </ul> |<ul><li>[1-1. TODO]() <li> [1-2. TODO]() </ul>|<ul> <li> [Syllabus: TODO]() <li>[OER text](./OER_text.pdf) Chapter 2.1-2.4 <li>[Evolution of the TCP/IP stack(including the interview with Bob Khan)](http://som.csudh.edu/fac/lpress/471/hout/tcpiphist.htm) <li>[Watch: How Packet Travels in Network](https://www.youtube.com/watch?v=xIuBmOufbls) </ul>| Quiz#1 is out on [TBD] | Quiz#1 due [TBD]
 Week 2:<br>Slides [2-1](./slides/application-sockets-dns.pptx) and [2-2](./slides/application-http.pptx) <br>Week of [TBD] | **Week 2: Application layer** <ul> <li>	Part 2.1: Intro to application layer <li>Part 2.2: DNS <li>Part 2.3: DNS records <li> Part 2.4: Intro to HTTP <li> Part 2.5: HTTP persistence and cookies </ul> |<ul><li>[2-1: TODO]() <li> [2-2: TODO]() </ul>|<ul> <li> [OER text](./OER_text.pdf) Chapter 3.1-3.4.1 and 3.4.3 </ul>|Quiz#2 is out on [TBD] | Quiz#2 due [TBD] 
