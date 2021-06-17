@@ -8,7 +8,7 @@ Instructor: [Dr. Jun Yuan](http://csis.pace.edu/~jyuan2/)
 # Acknowledgments
 This is the OER (open educational resources) repo for _CS488 Computer Networking and the Internet_ in supporting the action plan for *high-quality* and *affordable* learning materials to Pace students. Within the bounds of Creative Commons licensing, materials are developed following 5Rs of OER.  In order to best suit Pace students and meet the particular learning goals of the course, some materials come from remixing materials under common creative licenses or in open access with fair use.
 
-This course would have been impossible without the support from provost's mini-grant and the starting material Srinivas Narayana, Jennifer Rexford and Badri Nath. We also thank Jim Kurose and Keith Ross for the slide decks accompanying their textbook; some of the slide decks in this course draw heavily from their slides.
+This course would have been impossible without the support from provost's mini-grant and the starting material from Srinivas Narayana, Jennifer Rexford and Badri Nath. We also thank Jim Kurose and Keith Ross for the slide decks accompanying their textbook; some of the slide decks in this course draw heavily from their slides.
 
 
 # Course Description
