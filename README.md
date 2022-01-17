@@ -1,4 +1,4 @@
-# CS488 (OER): Computer Networks and The Internet
+# CS488: Computer Networks and The Internet
 [Pace University](http://www.pace.edu)
 
 Instructor: [Dr. Jun Yuan](http://csis.pace.edu/~jyuan2/)
