@@ -31,7 +31,7 @@ IEEE 802.11 protocols;
 7. Demonstrate your understanding of the material through a final project uploaded to GitHub.
 
 # Syllabus
-This syllabus for 2022 Spring is yet to be developed.  [Check out a sample syllabus from past](https://docs.google.com/document/d/1xm9FhonUHEuMwYttbQLTa5kgFB2k3s4wz1XRF6_BUy4/edit?usp=sharing)
+[Check out syllabus for 2022 Spring](https://docs.google.com/document/d/1xm9FhonUHEuMwYttbQLTa5kgFB2k3s4wz1XRF6_BUy4/edit?usp=sharing)
 
 # Live Schedule
 Week|Content|Recording|Reading|Quiz|Deadline and Notes
