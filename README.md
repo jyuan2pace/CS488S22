@@ -18,6 +18,7 @@ This course provides a top-down study of modern computer networking and the Inte
 # Textbook
 
 * **[Required]** None is required to purchase. Reading will be assigned based on the [OER text](./OER_text.pdf) and open-access supplementary materials. 
+* [OER: Computer network a top down approach](https://eclass.teicrete.gr/modules/document/file.php/TP326/%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1%20(Lectures)/Computer_Networking_A_Top-Down_Approach.pdf)
 
 # Objectives
 
